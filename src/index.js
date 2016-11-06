@@ -1,2 +1,4 @@
-const str = 'ES6';
-console.log(`Hello ${str}`);
+import Dog from './Dog';
+const toby = new Dog('Tobyy');
+
+console.log(toby.bark());
