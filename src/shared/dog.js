@@ -1,0 +1,13 @@
+/* eslint-disable no-console, eol-last, linebreak-style */
+
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+
+  bark() {
+    return `Wah wah, I am ${this.name}`;
+  }
+}
+
+export default Dog;
